@@ -22,11 +22,10 @@ public class HomeWork_2 {
             Scanner sn = new Scanner(System.in);
             int pick = sn.nextInt();
         
-        for (int divider = pick; pick >0; divider--) {
+        for (int divider = pick; divider >0; divider--) {
             int result=pick%divider;
             if(result==0) 
                 System.out.println("divider="+divider+" ");
-        
         }
     }
     
